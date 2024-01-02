@@ -30,7 +30,7 @@ import LogoutRoundedIcon from "@mui/icons-material/LogoutRounded";
 import BrightnessAutoRoundedIcon from "@mui/icons-material/BrightnessAutoRounded";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
-import ColorSchemeToggle from "./ColorSchemeToggle";
+// import ColorSchemeToggle from "./ColorSchemeToggle";
 import { closeSidebar } from "./utils";
 
 function Toggler({
@@ -123,7 +123,7 @@ export default function Sidebar() {
           <BrightnessAutoRoundedIcon />
         </IconButton>
         <Typography level="title-lg">Acme Co.</Typography>
-        <ColorSchemeToggle sx={{ ml: "auto" }} />
+        {/* <ColorSchemeToggle sx={{ ml: "auto" }} /> */}
       </Box>
       <Input
         size="sm"
